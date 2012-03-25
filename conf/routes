@@ -1,0 +1,18 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# Home page
+GET     /                           controllers.Application.index()
+
+# Todos          
+GET     /todos                  	controllers.Application.todos()
+POST    /todos                  	controllers.Application.add()
+DELETE  /todos/:todo 		     	controllers.Application.delete(todo: Long)
+PUT		/todos/:todo				controllers.Application.update(todo: Long)
+
+# Javascript routing
+GET     /assets/javascripts/routes	controllers.Application.javascriptRoutes()
+
+# Map static resources from the /public folder to the /assets URL path
+GET     /assets/*file               controllers.Assets.at(path="/public", file)

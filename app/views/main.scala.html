@@ -1,0 +1,19 @@
+@(title: String)(content: Html)
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>@title</title>
+        <link rel="stylesheet" type="text/css" media="screen" href="@routes.Assets.at("stylesheets/todo.css")">
+        <link rel="shortcut icon" type="image/png" href="@routes.Assets.at("images/favicon.png")">
+        <script src="@routes.Assets.at("javascripts/jquery-1.7.1.min.js")" type="text/javascript"></script>
+		<script type="text/javascript" src="@routes.Assets.at("javascripts/underscore.js")"></script>
+        <script type="text/javascript" src="@routes.Assets.at("javascripts/backbone.js")"></script>
+        <script type="text/javascript" src="@routes.Assets.at("javascripts/main.js")"></script>
+		<script type="text/javascript" src="@routes.Application.javascriptRoutes"></script>
+    </head>
+    <body>
+        @content
+    </body>
+</html>
