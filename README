@@ -1,0 +1,9 @@
+Welcome
+
+This is a play2.0 port of http://documentcloud.github.com/backbone/examples/todos/index.html originally created by Jérôme Gravel-Niquet.
+
+This is just a simple learning app that mixes the new Playframework 2.0(http://www.playframework.org/), backbone.js(http://documentcloud.github.com/backbone/).
+
+The app is very simple, you can check demo app on its orginal page (http://documentcloud.github.com/backbone/examples/todos/index.html).
+
+I make this just because I'm playing the new play2.0 these days, as well as backbone js framework which I see is so cool and potentially wil be very useful to me.
